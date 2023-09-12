@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Character Counter</title>
+    
+  <link rel="stylesheet" href="/assets/index-647a85d6.css">
+</head>
+<body class=" bg-gradient-to-tr from-[#a72807] via-[#e38807] to-[#a72807] flex flex-col justify-center items-center h-screen">
+    
+    <div class="bg-gradient-to-tr from-[#2e0a7d] via-[#a72807] to-[#2e0a7d] flex  flex-col justify-center items-center shadow-md p-2 w-[95%] rounded-md sm:w-[85%] md:w-[65%] lg:w-[45%]">
+        <h1 class="text-white font-bold text-lg pb-2 sm:text-xl drop-shadow-md md:text-2xl lg:text-3xl lg:pb-6 lg:pt-4">Real Time Character Counter</h1>
+        <textarea name="textarea" id="textArea" class="w-[99%] rounded-md p-2  shadow-md font-semibold outline-none lg:w-[90%]" placeholder="Please type here your text...." cols="30" rows="10"></textarea>
+        <div class="flex justify-between items-center w-[99%] py-3 text-white lg:w-[90%] lg:py-6  ">
+            <h2 class="font-semibold md:text-lg lg:text-xl">Total Character: <span id="totalChar">0</span></h2>
+            <h2 class="font-semibold md:text-lg lg:text-xl">Remaining: <span id="remainingChar"></span></h2>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
